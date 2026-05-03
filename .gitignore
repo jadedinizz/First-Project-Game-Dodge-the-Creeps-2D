@@ -13,4 +13,8 @@ exports/
 .DS_Store
 Thumbs.db
 /android/
-
+.editorconfig
+.gitattributes
+icon.svg
+icon.svg.import
+*.import
