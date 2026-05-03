@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cq62pa22yb8l"]
+
+[ext_resource type="Script" uid="uid://plmmiulphcg3" path="res://scripts/item.gd" id="1_s8enn"]
+[ext_resource type="Texture2D" uid="uid://djpeklweri2mm" path="res://images/fundoremovido.png" id="2_6muww"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vljjh"]
+size = Vector2(12.5, 33.9688)
+
+[node name="Item" type="StaticBody2D" groups=["item"]]
+collision_layer = 8
+collision_mask = 0
+script = ExtResource("1_s8enn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-16, 7)
+scale = Vector2(0.0676533, 0.0796964)
+texture = ExtResource("2_6muww")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 8
+visibility_layer = 0
+position = Vector2(-18.25, 5.01562)
+shape = SubResource("RectangleShape2D_vljjh")

@@ -1,0 +1,16 @@
+# Godot 4 — arquivos gerados automaticamente (não precisam de versionamento)
+.godot/
+
+# Builds exportadas
+exports/
+*.apk
+*.aab
+*.exe
+*.x86_64
+*.dmg
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+/android/
+
